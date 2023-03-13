@@ -37,7 +37,7 @@
 	const BLASTOISE          ; $1C
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
-	const_skip               ; $1F
+	const SNOM               ; $1F
 	const_skip               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
@@ -56,7 +56,7 @@
 	const PSYDUCK            ; $2F
 	const DROWZEE            ; $30
 	const GOLEM              ; $31
-	const_skip               ; $32
+	const FIDOUGH            ; $32
 	const MAGMAR             ; $33
 	const_skip               ; $34
 	const ELECTABUZZ         ; $35

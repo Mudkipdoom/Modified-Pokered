@@ -297,6 +297,16 @@ _TangelaDexEntry::
 	next "weed. Its vines"
 	next "shake as it walks"
 	dex
+	
+_SnomDexEntry::
+	text "It eats snow that"
+	next "piles up on the"
+	next "ground"
+	
+	page "The more snow it"
+	next "eats the bigger"
+	next "it grows"
+	dex
 
 _GrowlitheDexEntry::
 	text "Very protective"
@@ -466,6 +476,16 @@ _GolemDexEntry::
 	page "easily withstand"
 	next "dynamite blasts"
 	next "without damage"
+	dex
+	
+_FidoughDexEntry::
+	text "This #MON is"
+	next "smooth and warm to"
+	next "the touch"
+
+	page "Yeast in its"
+	next "breath induces"
+	next "fermentation"
 	dex
 
 _MagmarDexEntry::

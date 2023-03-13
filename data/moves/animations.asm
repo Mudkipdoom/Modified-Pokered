@@ -164,6 +164,8 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw PlayRoughAnim
+	dw BabyDollEyesAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -385,6 +387,7 @@ HornDrillAnim:
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
 	db -1 ; end
 
+PlayRoughAnim:
 TackleAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
@@ -1022,6 +1025,7 @@ LeechLifeAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
+BabyDollEyesAnim:
 LovelyKissAnim:
 	battle_anim LOVELY_KISS, SUBANIM_0_HEART_1_MUSIC, 0, 6
 	db -1 ; end

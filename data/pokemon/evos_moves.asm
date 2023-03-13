@@ -52,7 +52,7 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw FidoughEvosMoves
 	dw MagmarEvosMoves
 	dw MissingNo34EvosMoves
 	dw ElectabuzzEvosMoves
@@ -754,10 +754,17 @@ GolemEvosMoves:
 	db 43, EXPLOSION
 	db 0
 
-MissingNo32EvosMoves:
+FidoughEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db  3, LICK
+	db  6, TAIL_WHIP
+	db 11, BITE
+	db 15, BABYDOLLEYES
+	db 18, PLAY_ROUGH
+	db 30, ROAR
+	db 33, DOUBLE_EDGE
 	db 0
 
 MagmarEvosMoves:

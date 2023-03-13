@@ -82,4 +82,12 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db FAIRY,        DRAGON,       SUPER_EFFECTIVE
+	db FAIRY,        FIGHTING,     SUPER_EFFECTIVE
+	db FAIRY,        FIRE,         NOT_VERY_EFFECTIVE
+	db FAIRY,        POISON,       NOT_VERY_EFFECTIVE
+	db BUG,          FAIRY,        NOT_VERY_EFFECTIVE
+	db FIGHTING,     FAIRY,        NOT_VERY_EFFECTIVE
+	db POISON,       FAIRY,        SUPER_EFFECTIVE
+	db DRAGON,       FAIRY,        NO_EFFECT
 	db -1 ; end

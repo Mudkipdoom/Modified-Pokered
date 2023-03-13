@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw SnomDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -49,7 +49,7 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw FidoughDexEntry
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
 	dw ElectabuzzDexEntry
@@ -406,6 +406,13 @@ TangelaDexEntry:
 	dw 770
 	text_far _TangelaDexEntry
 	text_end
+	
+SnomDexEntry:
+	db "WORM@"
+	db 1,0
+	dw 84
+	text_far _SnomDexEntry
+	text_end
 
 GrowlitheDexEntry:
 	db "PUPPY@"
@@ -524,6 +531,13 @@ GolemDexEntry:
 	db 4,7
 	dw 6620
 	text_far _GolemDexEntry
+	text_end
+	
+FidoughDexEntry:
+	db "PUPPY@"
+	db 1,0
+	dw 240
+	text_far _FidoughDexEntry
 	text_end
 
 MagmarDexEntry:
