@@ -258,10 +258,9 @@ PidgeottoPicFront::    INCBIN "gfx/pokemon/front/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "gfx/pokemon/back/pidgeottob.pic"
 PidgeotPicFront::      INCBIN "gfx/pokemon/front/pidgeot.pic"
 PidgeotPicBack::       INCBIN "gfx/pokemon/back/pidgeotb.pic"
-StarmiePicFront::      INCBIN "gfx/pokemon/front/starmie.pic"
-StarmiePicBack::       INCBIN "gfx/pokemon/back/starmieb.pic"
 
 RedPicBack::           INCBIN "gfx/player/redb.pic"
+GreenPicBack::         INCBIN "gfx/player/greenb.pic"
 OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"
 
 
@@ -379,6 +378,8 @@ MewPicFront::   INCBIN "gfx/pokemon/front/mew.pic"
 MewPicBack::    INCBIN "gfx/pokemon/back/mewb.pic"
 FidoughPicFront:: INCBIN "gfx/pokemon/front/fidough.pic"
 FidoughPicBack:: INCBIN "gfx/pokemon/back/fidoughb.pic"
+StarmiePicFront::      INCBIN "gfx/pokemon/front/starmie.pic"
+StarmiePicBack::       INCBIN "gfx/pokemon/back/starmieb.pic"
 
 FossilKabutopsPic::   INCBIN "gfx/pokemon/front/fossilkabutops.pic"
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
