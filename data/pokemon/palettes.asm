@@ -154,4 +154,5 @@ MonsterPalettes:
 	db PAL_MEWMON    ; MEW
 	db PAL_CYANMON   ; Snom
 	db PAL_YELLOWMON ; Fidough
+	db PAL_BROWNMON  ; Dachsbun
 	assert_table_length NUM_POKEMON + 1

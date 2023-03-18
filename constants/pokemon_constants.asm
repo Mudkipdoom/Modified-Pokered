@@ -58,7 +58,7 @@
 	const GOLEM              ; $31
 	const FIDOUGH            ; $32
 	const MAGMAR             ; $33
-	const_skip               ; $34
+	const DACHSBUN               ; $34
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
 	const KOFFING            ; $37
@@ -201,7 +201,7 @@
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; starters
-DEF STARTER1 EQU CHARMANDER
+DEF STARTER1 EQU FIDOUGH
 DEF STARTER2 EQU SQUIRTLE
 DEF STARTER3 EQU BULBASAUR
 

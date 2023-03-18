@@ -153,4 +153,5 @@ INCLUDE "data/pokemon/base_stats/mewtwo.asm"
 INCLUDE "data/pokemon/base_stats/mew.asm"
 INCLUDE "data/pokemon/base_stats/snom.asm"
 INCLUDE "data/pokemon/base_stats/fidough.asm"
+INCLUDE "data/pokemon/base_stats/dachsbun.asm"
 	assert_table_length NUM_POKEMON

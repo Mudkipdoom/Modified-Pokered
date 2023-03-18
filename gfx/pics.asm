@@ -380,6 +380,8 @@ FidoughPicFront:: INCBIN "gfx/pokemon/front/fidough.pic"
 FidoughPicBack:: INCBIN "gfx/pokemon/back/fidoughb.pic"
 StarmiePicFront::      INCBIN "gfx/pokemon/front/starmie.pic"
 StarmiePicBack::       INCBIN "gfx/pokemon/back/starmieb.pic"
+DachsbunPicFront:: INCBIN "gfx/pokemon/front/dachsbun.pic"
+DachsbunPicBack:: INCBIN "gfx/pokemon/back/dachsbunb.pic"
 
 FossilKabutopsPic::   INCBIN "gfx/pokemon/front/fossilkabutops.pic"
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"

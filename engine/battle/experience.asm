@@ -20,7 +20,7 @@ GainExperience:
 	ld a, c
 	and a ; is mon's gain exp flag set?
 	pop hl
-	jp z, .nextMon ; if mon's gain exp flag not set, go to next mon
+	;jp z, .nextMon ; if mon's gain exp flag not set, go to next mon
 	ld de, (wPartyMon1HPExp + 1) - (wPartyMon1HP + 1)
 	add hl, de
 	ld d, h

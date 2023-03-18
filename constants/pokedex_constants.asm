@@ -157,5 +157,6 @@
 	const DEX_MEW        ; 151
 	const DEX_SNOM       ; 152
 	const DEX_FIDOUGH    ; 153
+	const DEX_DACHSBUN   ; 154
 
 DEF NUM_POKEMON EQU const_value - 1

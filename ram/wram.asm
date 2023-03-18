@@ -2043,8 +2043,14 @@ wGameProgressFlagsEnd::
 		; $00 = male
 		; $01 = female
 			ds 1
-		; unused
-			ds 55
+		
+	wExpShare::
+		; 00 = on
+		; 01 = off
+			ds 1
+		
+	; unused
+		ds 54
 
 wObtainedHiddenItemsFlags:: flag_array 112
 

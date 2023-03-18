@@ -497,6 +497,16 @@ _MagmarDexEntry::
 	next "hide perfectly"
 	next "among flames"
 	dex
+	
+_DachsbunDexEntry::
+	text "The pleasant aroma"
+	next "that emanates from"
+	next "#MONs body"
+	
+	page "helps wheat grow"
+	next "It is treasured"
+	next "by farmers"
+	dex
 
 _ElectabuzzDexEntry::
 	text "Normally found"

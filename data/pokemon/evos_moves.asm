@@ -54,7 +54,7 @@ EvosMovesPointerTable:
 	dw GolemEvosMoves
 	dw FidoughEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw DachsbunEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
@@ -779,10 +779,18 @@ MagmarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
-MissingNo34EvosMoves:
+DachsbunEvosMoves:
 ; Evolutions
-	db 0
+	db EV_LEVEL, 26, FIDOUGH
 ; Learnset
+	db  3, LICK
+	db  6, TAIL_WHIP
+	db 11, BITE
+	db 15, BABYDOLLEYES
+	db 18, PLAY_ROUGH
+	db 30, ROAR
+	db 33, DOUBLE_EDGE
+	db 47, HYPER_FANG
 	db 0
 
 ElectabuzzEvosMoves:

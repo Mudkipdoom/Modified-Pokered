@@ -153,4 +153,5 @@ MonPartyData:
 	nybble ICON_MON       ; Mew
 	nybble ICON_BUG		  ; Snom
 	nybble ICON_FAIRY     ;Fidough
+	nybble ICON_QUADRUPED ;Dachsbun
 	end_nybble_array NUM_POKEMON
